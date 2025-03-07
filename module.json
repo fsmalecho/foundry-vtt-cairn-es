@@ -1,6 +1,6 @@
 {
-  "id": "cairn-pl",
-  "title": "Cairn PL",
+  "id": "cairn-es",
+  "title": "Cairn ES",
   "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
@@ -8,20 +8,20 @@
   },
   "authors": [
     {
-      "name": "Oskar Świda",
-      "email": "oskar.swida@gmail.com",
-      "url": "https://pl.cairnrpg.com",
+      "name": "Frank Malecho",
+      "email": "sieiro.frank@gmail.com",
+      "url": "https://es.cairnrpg.com/",
       "flags": {}
     }
   ],
   "esmodules": [
-    "./module/cairn-pl.js"
+    "./module/cairn-es.js"
   ],
   "packs": [
     {
-      "name": "cairn-pl-items",
-      "label": "Przedmioty",
-      "path": "packs/cairn-pl-items",
+      "name": "cairn-es-items",
+      "label": "Equipo",
+      "path": "packs/cairn-es-items",
       "type": "Item",
       "system": "cairn",
       "ownership": {
@@ -30,8 +30,8 @@
       }
     },
     {
-      "name": "cairn-pl-actors",
-      "label": "Aktorzy",
+      "name": "cairn-es-actors",
+      "label": "Monstruos",
       "path": "packs/cairn-pl-actors",
       "type": "Actor",
       "system": "cairn",
@@ -41,9 +41,9 @@
       }
     },
     {
-      "name": "cairn-pl-rules",
-      "label": "Reguły",
-      "path": "packs/cairn-pl-rules",
+      "name": "cairn-es-rules",
+      "label": "Reglas",
+      "path": "packs/cairn-es-rules",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -51,9 +51,9 @@
       }
     },
     {
-      "name": "cairn-pl-tabele",
-      "label": "Tabele",
-      "path": "packs/cairn-pl-tabele",
+      "name": "cairn-es-tables",
+      "label": "Tablas",
+      "path": "packs/cairn-es-tables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -62,9 +62,9 @@
       "system": "cairn"
     },
     {
-      "name": "cairn-pl-makra",
-      "label": "Makra",
-      "path": "packs/cairn-pl-makra",
+      "name": "cairn-es-macros",
+      "label": "Macros",
+      "path": "packs/cairn-es-macros",
       "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -75,15 +75,15 @@
   ],
   "packFolders": [
     {
-      "name": "Cairn PL",
+      "name": "Cairn ES",
       "sorting": "a",
       "color": null,
       "packs": [
-        "cairn-pl-items",
-        "cairn-pl-actors",
-        "cairn-pl-rules",
-        "cairn-pl-tabele",
-        "cairn-pl-makra"
+        "cairn-es-items",
+        "cairn-es-actors",
+        "cairn-es-rules",
+        "cairn-es-tables",
+        "cairn-es-macros"
       ]
     }
   ]
