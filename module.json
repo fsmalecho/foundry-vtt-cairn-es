@@ -1,0 +1,80 @@
+{
+  "id": "cairn-es",
+  "title": "Cairn ES",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Frank Malecho",
+      "email": "sieiro.frank@gmail.com",
+      "url": "https://es.cairnrpg.com/",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/cairn-es.js"
+  ],
+  "packs": [
+    {
+      "name": "cairn-es-items",
+      "label": "Objetos",
+      "path": "packs/cairn-es-items",
+      "type": "Item",
+      "system": "cairn",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cairn-es-actors",
+      "label": "Actores",
+      "path": "packs/cairn-es-actors",
+      "type": "Actor",
+      "system": "cairn",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cairn-es-rules",
+      "label": "Reglas",
+      "path": "packs/cairn-es-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cairn-es-tables",
+      "label": "Tablas",
+      "path": "packs/cairn-es-tables",
+      "type": "RollTable",
+      "system": "cairn",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Cairn ES",
+      "sorting": "a",
+      "color": null,
+      "packs": [
+        "cairn-es-items",
+        "cairn-es-actors",
+        "cairn-es-rules",
+        "cairn-es-tables"
+      ],
+      "folders": []
+    }
+  ],
+  "description": "Contenido en español para el sistema Cairn en Foundry VTT."
+}
