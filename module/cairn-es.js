@@ -33,7 +33,7 @@ Hooks.once('ready', async () => {
                 "cairn-es.cairn-es-tables;Equipo inicial - Objeto extra"
             ],
             biography: {
-                text: "Soy de cuerpo <strong>{physique}</strong>, de piel <strong>{skin}</strong>, de cabello <strong>{hair}</strong>, y un rostro <strong>{face}</strong>. Tengo una voz <strong>{speech}</strong> y visto <strong>{clothing}</strong>. Mi mayor defecto es ser <strong>{vice}</strong> pero también soy <strong>{virtue}</strong>, se me conoce por ser <strong>{reputation}</strong>. Tengo la mala fortuna de haber sido <strong>{misfortune}</strong>. Tengo <strong>{age}</strong> años.",
+                text: "Soy de físico <strong>{physique}</strong>, de piel <strong>{skin}</strong>, de cabello <strong>{hair}</strong>, y un rostro <strong>{face}</strong>. Tengo una voz <strong>{speech}</strong> y llevo una vestimenta <strong>{clothing}</strong>. Mi mayor defecto es ser <strong>{vice}</strong> pero también soy <strong>{virtue}</strong>, se dice que soy <strong>{reputation}</strong>. Tengo la mala fortuna de <strong>{misfortune}</strong>. Tengo <strong>{age}</strong> años.",
                 age: "2d20 + 10",
                 items: {
                     physique: "cairn-es.cairn-es-tables;Físico",
